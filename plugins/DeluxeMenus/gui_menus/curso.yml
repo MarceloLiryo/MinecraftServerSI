@@ -1,47 +1,175 @@
-menu_title: '&8Selecione seu Curso'
-size: 27
+menu_title: '&cSelecione seu Curso'
+size: 54
 open_command:
 - selecionar_curso
 items:
   si:
     material: REDSTONE
     slot: 10
-    display_name: '&aSI'
+    display_name: '&bSI'
+    lore:
+    - '&7Sistemas de Informação'
     left_click_commands:
     - '[console] lp user %player_name% meta set curso SI'
+    - '[console] lp user %player_name% meta set curso_display &bSI'
     - '[openguimenu] ano'
-  adm:
-    material: PAPER
+  cc:
+    material: REPEATER
     slot: 11
-    display_name: '&bADM'
+    display_name: '&aCC'
+    lore:
+    - '&7Ciência da Computação'
     left_click_commands:
-    - '[console] lp user %player_name% meta set curso ADM'
+    - '[console] lp user %player_name% meta set curso CC'
+    - '[console] lp user %player_name% meta set curso_display &aCC'
     - '[openguimenu] ano'
-  jgd:
-    material: DIAMOND_SWORD
+  eng:
+    material: IRON_PICKAXE
     slot: 12
-    display_name: '&dJGD'
+    display_name: '&6ENG'
+    lore:
+    - '&7Engenharia'
     left_click_commands:
-    - '[console] lp user %player_name% meta set curso JGD'
+    - '[console] lp user %player_name% meta set curso ENG'
+    - '[console] lp user %player_name% meta set curso_display &6ENG'
+    - '[openguimenu] ano'
+  qui:
+    material: BREWING_STAND
+    slot: 13
+    display_name: '&eQUI'
+    lore:
+    - '&7Química'
+    left_click_commands:
+    - '[console] lp user %player_name% meta set curso QUI'
+    - '[console] lp user %player_name% meta set curso_display &eQUI'
     - '[openguimenu] ano'
   fis:
     material: BLAZE_ROD
-    slot: 13
+    slot: 14
     display_name: '&6FIS'
+    lore:
+    - '&7Física'
     left_click_commands:
     - '[console] lp user %player_name% meta set curso FIS'
+    - '[console] lp user %player_name% meta set curso_display &6FIS'
+    - '[openguimenu] ano'
+  dsg:
+    material: PAINTING
+    slot: 19
+    display_name: '&dDSG'
+    lore:
+    - '&7Design'
+    left_click_commands:
+    - '[console] lp user %player_name% meta set curso DSG'
+    - '[console] lp user %player_name% meta set curso_display &dDSG'
+    - '[openguimenu] ano'
+  urb:
+    material: BRICKS
+    slot: 20
+    display_name: '&7URB'
+    lore:
+    - '&7Arquitetura e Urbanismo'
+    left_click_commands:
+    - '[console] lp user %player_name% meta set curso URB'
+    - '[console] lp user %player_name% meta set curso_display &7URB'
+    - '[openguimenu] ano'
+  med:
+    material: GOLDEN_APPLE
+    slot: 21
+    display_name: '&cMED'
+    lore:
+    - '&7Medicina'
+    left_click_commands:
+    - '[console] lp user %player_name% meta set curso MED'
+    - '[console] lp user %player_name% meta set curso_display &cMED'
+    - '[openguimenu] ano'
+  enf:
+    material: POTION
+    slot: 22
+    display_name: '&2ENF'
+    lore:
+    - '&7Enfermagem'
+    left_click_commands:
+    - '[console] lp user %player_name% meta set curso ENF'
+    - '[console] lp user %player_name% meta set curso_display &2ENF'
+    - '[openguimenu] ano'
+  far:
+    material: GLASS_BOTTLE
+    slot: 23
+    display_name: '&2FAR'
+    lore:
+    - '&7Farmácia'
+    left_click_commands:
+    - '[console] lp user %player_name% meta set curso FAR'
+    - '[console] lp user %player_name% meta set curso_display &2FAR'
+    - '[openguimenu] ano'
+  bio:
+    material: SPIDER_EYE
+    slot: 28
+    display_name: '&dBIO'
+    lore:
+    - '&7Biomedicina'
+    left_click_commands:
+    - '[console] lp user %player_name% meta set curso BIO'
+    - '[console] lp user %player_name% meta set curso_display &dBIO'
+    - '[openguimenu] ano'
+  psico:
+    material: FEATHER
+    slot: 29
+    display_name: '&dPSI'
+    lore:
+    - '&7Psicologia'
+    left_click_commands:
+    - '[console] lp user %player_name% meta set curso PSI'
+    - '[console] lp user %player_name% meta set curso_display &dPSI'
+    - '[openguimenu] ano'
+  dir:
+    material: ANVIL
+    slot: 30
+    display_name: '&eDIR'
+    lore:
+    - '&7Direito'
+    left_click_commands:
+    - '[console] lp user %player_name% meta set curso DIR'
+    - '[console] lp user %player_name% meta set curso_display &eDIR'
+    - '[openguimenu] ano'
+  adm:
+    material: PAPER
+    slot: 31
+    display_name: '&bADM'
+    lore:
+    - '&7Administração'
+    left_click_commands:
+    - '[console] lp user %player_name% meta set curso ADM'
+    - '[console] lp user %player_name% meta set curso_display &bADM'
+    - '[openguimenu] ano'
+  jgd:
+    material: DIAMOND_SWORD
+    slot: 32
+    display_name: '&dJGD'
+    lore:
+    - '&7Jogos Digitais'
+    left_click_commands:
+    - '[console] lp user %player_name% meta set curso JGD'
+    - '[console] lp user %player_name% meta set curso_display &dJGD'
     - '[openguimenu] ano'
   oth:
     material: STICK
-    slot: 16
+    slot: 25
     display_name: '&7OTH'
+    lore:
+    - '&7Outro'
     left_click_commands:
     - '[console] lp user %player_name% meta set curso OTH'
+    - '[console] lp user %player_name% meta set curso_display &7Outro'
     - '[openguimenu] ano'
   na:
     material: BARRIER
-    slot: 17
+    slot: 26
     display_name: '&7N/A'
+    lore:
+    - '&7Não se aplica'
     left_click_commands:
     - '[console] lp user %player_name% meta set curso NA'
+    - '[console] lp user %player_name% meta set curso_display &7-'
     - '[openguimenu] ano'

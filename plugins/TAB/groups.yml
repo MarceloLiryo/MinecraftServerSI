@@ -6,10 +6,11 @@ Player:
   tagprefix: "&2&lPlayer &3"
 
  # default settings for all groups, all groups will take properties from this section unless player's primary group overrides a specific setting
-_DEFAULT_:
-  tabprefix: "%luckperms_meta_faculdade_display% &b%luckperms_meta_curso%'%luckperms_meta_ano%&7 | &f"
-  customtabname: "%player%"
 
+_DEFAULT_:
+  tabprefix: "%condition:ismod%%luckperms_meta_faculdade_display% %luckperms_meta_curso_display%'%luckperms_meta_ano%&7 | &f"
+  tabsuffix: " &c☠%statistic_deaths%&7 |"
+  customtabname: "%player%"
 per-world:
   world1:
     Owner:

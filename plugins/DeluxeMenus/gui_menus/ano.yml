@@ -1,61 +1,115 @@
-menu_title: '&8Ano de Entrada'
+menu_title: '&cAno de Entrada'
 size: 27
 open_command:
 - selecionar_ano
 items:
-  y20:
+  y18:
     material: CLOCK
     slot: 10
+    display_name: '&f18'
+    lore:
+    - '&7Entrou em 2018'
+    left_click_commands:
+    - '[console] lp user %player_name% meta set ano 18'
+    - '[console] lp user %player_name% meta set ano_display &f18'
+    - '[close]'
+    - '[message] &aPerfil configurado com sucesso!'
+  y19:
+    material: CLOCK
+    slot: 11
+    display_name: '&f19'
+    lore:
+    - '&7Entrou em 2019'
+    left_click_commands:
+    - '[console] lp user %player_name% meta set ano 19'
+    - '[console] lp user %player_name% meta set ano_display &f19'
+    - '[close]'
+    - '[message] &aPerfil configurado com sucesso!'
+  y20:
+    material: CLOCK
+    slot: 12
     display_name: '&f20'
+    lore:
+    - '&7Entrou em 2020'
     left_click_commands:
     - '[console] lp user %player_name% meta set ano 20'
+    - '[console] lp user %player_name% meta set ano_display &f20'
     - '[close]'
     - '[message] &aPerfil configurado com sucesso!'
   y21:
     material: CLOCK
-    slot: 11
+    slot: 13
     display_name: '&f21'
+    lore:
+    - '&7Entrou em 2021'
     left_click_commands:
     - '[console] lp user %player_name% meta set ano 21'
+    - '[console] lp user %player_name% meta set ano_display &f21'
     - '[close]'
     - '[message] &aPerfil configurado com sucesso!'
   y22:
     material: CLOCK
-    slot: 12
+    slot: 14
     display_name: '&f22'
+    lore:
+    - '&7Entrou em 2022'
     left_click_commands:
     - '[console] lp user %player_name% meta set ano 22'
+    - '[console] lp user %player_name% meta set ano_display &f22'
     - '[close]'
     - '[message] &aPerfil configurado com sucesso!'
   y23:
     material: CLOCK
-    slot: 13
+    slot: 19
     display_name: '&f23'
+    lore:
+    - '&7Entrou em 2023'
     left_click_commands:
     - '[console] lp user %player_name% meta set ano 23'
+    - '[console] lp user %player_name% meta set ano_display &f23'
     - '[close]'
     - '[message] &aPerfil configurado com sucesso!'
   y24:
     material: CLOCK
-    slot: 14
+    slot: 20
     display_name: '&f24'
+    lore:
+    - '&7Entrou em 2024'
     left_click_commands:
     - '[console] lp user %player_name% meta set ano 24'
+    - '[console] lp user %player_name% meta set ano_display &f24'
     - '[close]'
     - '[message] &aPerfil configurado com sucesso!'
   y25:
     material: CLOCK
-    slot: 15
+    slot: 21
     display_name: '&f25'
+    lore:
+    - '&7Entrou em 2025'
     left_click_commands:
     - '[console] lp user %player_name% meta set ano 25'
+    - '[console] lp user %player_name% meta set ano_display &f25'
     - '[close]'
     - '[message] &aPerfil configurado com sucesso!'
   y26:
     material: CLOCK
-    slot: 16
+    slot: 22
     display_name: '&f26'
+    lore:
+    - '&7Entrou em 2026'
     left_click_commands:
     - '[console] lp user %player_name% meta set ano 26'
+    - '[console] lp user %player_name% meta set ano_display &f26'
+    - '[close]'
+    - '[message] &aPerfil configurado com sucesso!'
+  na:
+    material: BARRIER
+    slot: 26
+    display_name: '&7N/A'
+    lore:
+    - '&7Não se aplica'
+    left_click_commands:
+    - '[console] lp user %player_name% meta set ano NA'
+    - '[console] lp user %player_name% meta set ano_display &7-'
     - '[close]'
     - '[message] &aPerfil configurado com sucesso!'
