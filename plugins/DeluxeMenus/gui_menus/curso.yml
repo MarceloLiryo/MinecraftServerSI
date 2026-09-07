@@ -1,0 +1,40 @@
+menu_title: '&8Selecione seu Curso'
+size: 27
+open_command:
+- selecionar_curso
+items:
+  si:
+    material: REDSTONE
+    slot: 10
+    display_name: '&aSI'
+    left_click_commands:
+    - '[console] lp user %player_name% meta set curso SI'
+    - '[player] menu open ano'
+  adm:
+    material: PAPER
+    slot: 11
+    display_name: '&bADM'
+    left_click_commands:
+    - '[console] lp user %player_name% meta set curso ADM'
+    - '[player] menu open ano'
+  jg:
+    material: DIAMOND_SWORD
+    slot: 12
+    display_name: '&dJG'
+    left_click_commands:
+    - '[console] lp user %player_name% meta set curso JG'
+    - '[player] menu open ano'
+  fis:
+    material: BLAZE_ROD
+    slot: 13
+    display_name: '&6FIS'
+    left_click_commands:
+    - '[console] lp user %player_name% meta set curso FIS'
+    - '[player] menu open ano'
+  na:
+    material: BARRIER
+    slot: 14
+    display_name: '&7N/A'
+    left_click_commands:
+    - '[console] lp user %player_name% meta set curso NA'
+    - '[player] menu open ano'

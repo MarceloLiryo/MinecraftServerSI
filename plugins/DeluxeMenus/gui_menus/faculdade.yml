@@ -1,0 +1,45 @@
+menu_title: '&8Selecione sua Faculdade'
+size: 27
+open_command:
+- selecionar_faculdade
+items:
+  uneb:
+    material: BOOK
+    slot: 10
+    display_name: '&aUNEB'
+    left_click_commands:
+    - '[console] lp user %player_name% meta set faculdade UNEB'
+    - '[console] lp user %player_name% meta set faculdade_display &aUNEB'
+    - '[player] menu open curso'
+  ufba:
+    material: BOOK
+    slot: 11
+    display_name: '&bUFBA'
+    left_click_commands:
+    - '[console] lp user %player_name% meta set faculdade UFBA'
+    - '[console] lp user %player_name% meta set faculdade_display &bUFBA'
+    - '[player] menu open curso'
+  ucsal:
+    material: BOOK
+    slot: 12
+    display_name: '&eUCSAL'
+    left_click_commands:
+    - '[console] lp user %player_name% meta set faculdade UCSAL'
+    - '[console] lp user %player_name% meta set faculdade_display &eUCSAL'
+    - '[player] menu open curso'
+  ifba:
+    material: BOOK
+    slot: 13
+    display_name: '&cIFBA'
+    left_click_commands:
+    - '[console] lp user %player_name% meta set faculdade IFBA'
+    - '[console] lp user %player_name% meta set faculdade_display &cIFBA'
+    - '[player] menu open curso'
+  na:
+    material: BARRIER
+    slot: 14
+    display_name: '&7N/A'
+    left_click_commands:
+    - '[console] lp user %player_name% meta set faculdade NA'
+    - '[console] lp user %player_name% meta set faculdade_display &7-'
+    - '[player] menu open curso'
