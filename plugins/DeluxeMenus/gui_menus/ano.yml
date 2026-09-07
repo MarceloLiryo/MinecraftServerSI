@@ -9,53 +9,53 @@ items:
     display_name: '&f20'
     left_click_commands:
     - '[console] lp user %player_name% meta set ano 20'
-    - '[player] close'
-    - '[player] message &aPerfil configurado com sucesso!'
+    - '[close]'
+    - '[message] &aPerfil configurado com sucesso!'
   y21:
     material: CLOCK
     slot: 11
     display_name: '&f21'
     left_click_commands:
     - '[console] lp user %player_name% meta set ano 21'
-    - '[player] close'
-    - '[player] message &aPerfil configurado com sucesso!'
+    - '[close]'
+    - '[message] &aPerfil configurado com sucesso!'
   y22:
     material: CLOCK
     slot: 12
     display_name: '&f22'
     left_click_commands:
     - '[console] lp user %player_name% meta set ano 22'
-    - '[player] close'
-    - '[player] message &aPerfil configurado com sucesso!'
+    - '[close]'
+    - '[message] &aPerfil configurado com sucesso!'
   y23:
     material: CLOCK
     slot: 13
     display_name: '&f23'
     left_click_commands:
     - '[console] lp user %player_name% meta set ano 23'
-    - '[player] close'
-    - '[player] message &aPerfil configurado com sucesso!'
+    - '[close]'
+    - '[message] &aPerfil configurado com sucesso!'
   y24:
     material: CLOCK
     slot: 14
     display_name: '&f24'
     left_click_commands:
     - '[console] lp user %player_name% meta set ano 24'
-    - '[player] close'
-    - '[player] message &aPerfil configurado com sucesso!'
+    - '[close]'
+    - '[message] &aPerfil configurado com sucesso!'
   y25:
     material: CLOCK
     slot: 15
     display_name: '&f25'
     left_click_commands:
     - '[console] lp user %player_name% meta set ano 25'
-    - '[player] close'
-    - '[player] message &aPerfil configurado com sucesso!'
+    - '[close]'
+    - '[message] &aPerfil configurado com sucesso!'
   y26:
     material: CLOCK
     slot: 16
     display_name: '&f26'
     left_click_commands:
     - '[console] lp user %player_name% meta set ano 26'
-    - '[player] close'
-    - '[player] message &aPerfil configurado com sucesso!'
+    - '[close]'
+    - '[message] &aPerfil configurado com sucesso!'

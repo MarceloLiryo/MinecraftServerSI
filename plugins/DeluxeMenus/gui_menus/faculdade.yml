@@ -10,7 +10,7 @@ items:
     left_click_commands:
     - '[console] lp user %player_name% meta set faculdade UNEB'
     - '[console] lp user %player_name% meta set faculdade_display &aUNEB'
-    - '[player] menu open curso'
+    - '[openguimenu] curso'
   ufba:
     material: BOOK
     slot: 11
@@ -18,7 +18,7 @@ items:
     left_click_commands:
     - '[console] lp user %player_name% meta set faculdade UFBA'
     - '[console] lp user %player_name% meta set faculdade_display &bUFBA'
-    - '[player] menu open curso'
+    - '[openguimenu] curso'
   ucsal:
     material: BOOK
     slot: 12
@@ -26,7 +26,7 @@ items:
     left_click_commands:
     - '[console] lp user %player_name% meta set faculdade UCSAL'
     - '[console] lp user %player_name% meta set faculdade_display &eUCSAL'
-    - '[player] menu open curso'
+    - '[openguimenu] curso'
   ifba:
     material: BOOK
     slot: 13
@@ -34,7 +34,7 @@ items:
     left_click_commands:
     - '[console] lp user %player_name% meta set faculdade IFBA'
     - '[console] lp user %player_name% meta set faculdade_display &cIFBA'
-    - '[player] menu open curso'
+    - '[openguimenu] curso'
   na:
     material: BARRIER
     slot: 14
@@ -42,4 +42,4 @@ items:
     left_click_commands:
     - '[console] lp user %player_name% meta set faculdade NA'
     - '[console] lp user %player_name% meta set faculdade_display &7-'
-    - '[player] menu open curso'
+    - '[openguimenu] curso'

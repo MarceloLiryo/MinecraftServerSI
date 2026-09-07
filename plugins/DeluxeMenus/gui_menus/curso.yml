@@ -9,32 +9,39 @@ items:
     display_name: '&aSI'
     left_click_commands:
     - '[console] lp user %player_name% meta set curso SI'
-    - '[player] menu open ano'
+    - '[openguimenu] ano'
   adm:
     material: PAPER
     slot: 11
     display_name: '&bADM'
     left_click_commands:
     - '[console] lp user %player_name% meta set curso ADM'
-    - '[player] menu open ano'
-  jg:
+    - '[openguimenu] ano'
+  jgd:
     material: DIAMOND_SWORD
     slot: 12
-    display_name: '&dJG'
+    display_name: '&dJGD'
     left_click_commands:
-    - '[console] lp user %player_name% meta set curso JG'
-    - '[player] menu open ano'
+    - '[console] lp user %player_name% meta set curso JGD'
+    - '[openguimenu] ano'
   fis:
     material: BLAZE_ROD
     slot: 13
     display_name: '&6FIS'
     left_click_commands:
     - '[console] lp user %player_name% meta set curso FIS'
-    - '[player] menu open ano'
+    - '[openguimenu] ano'
+  oth:
+    material: STICK
+    slot: 16
+    display_name: '&7OTH'
+    left_click_commands:
+    - '[console] lp user %player_name% meta set curso OTH'
+    - '[openguimenu] ano'
   na:
     material: BARRIER
-    slot: 14
+    slot: 17
     display_name: '&7N/A'
     left_click_commands:
     - '[console] lp user %player_name% meta set curso NA'
-    - '[player] menu open ano'
+    - '[openguimenu] ano'
