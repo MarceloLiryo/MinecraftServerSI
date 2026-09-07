@@ -1,4 +1,4 @@
-menu_title: '&8Selecione sua Faculdade'
+menu_title: '&eSelecione sua Faculdade'
 size: 27
 open_command:
 - selecionar_faculdade
@@ -7,6 +7,8 @@ items:
     material: BOOK
     slot: 10
     display_name: '&aUNEB'
+    lore:
+    - '&7Universidade do Estado da Bahia'
     left_click_commands:
     - '[console] lp user %player_name% meta set faculdade UNEB'
     - '[console] lp user %player_name% meta set faculdade_display &aUNEB'
@@ -15,6 +17,8 @@ items:
     material: BOOK
     slot: 11
     display_name: '&bUFBA'
+    lore:
+    - '&7Universidade Federal da Bahia'
     left_click_commands:
     - '[console] lp user %player_name% meta set faculdade UFBA'
     - '[console] lp user %player_name% meta set faculdade_display &bUFBA'
@@ -23,6 +27,8 @@ items:
     material: BOOK
     slot: 12
     display_name: '&eUCSAL'
+    lore:
+    - '&7Universidade Católica do Salvador'
     left_click_commands:
     - '[console] lp user %player_name% meta set faculdade UCSAL'
     - '[console] lp user %player_name% meta set faculdade_display &eUCSAL'
@@ -31,14 +37,68 @@ items:
     material: BOOK
     slot: 13
     display_name: '&cIFBA'
+    lore:
+    - '&7Instituto Federal da Bahia'
     left_click_commands:
     - '[console] lp user %player_name% meta set faculdade IFBA'
     - '[console] lp user %player_name% meta set faculdade_display &cIFBA'
     - '[openguimenu] curso'
+  uefs:
+    material: BOOK
+    slot: 19
+    display_name: '&9UEFS'
+    lore:
+    - '&7Universidade Estadual de Feira de Santana'
+    left_click_commands:
+    - '[console] lp user %player_name% meta set faculdade UEFS'
+    - '[console] lp user %player_name% meta set faculdade_display &9UEFS'
+    - '[openguimenu] curso'
+  uesc:
+    material: BOOK
+    slot: 20
+    display_name: '&3UESC'
+    lore:
+    - '&7Universidade Estadual de Santa Cruz'
+    left_click_commands:
+    - '[console] lp user %player_name% meta set faculdade UESC'
+    - '[console] lp user %player_name% meta set faculdade_display &3UESC'
+    - '[openguimenu] curso'
+  ufrb:
+    material: BOOK
+    slot: 21
+    display_name: '&6UFRB'
+    lore:
+    - '&7Universidade Federal do Recôncavo da Bahia'
+    left_click_commands:
+    - '[console] lp user %player_name% meta set faculdade UFRB'
+    - '[console] lp user %player_name% meta set faculdade_display &6UFRB'
+    - '[openguimenu] curso'
+  unifacs:
+    material: BOOK
+    slot: 22
+    display_name: '&dUNIFACS'
+    lore:
+    - '&7Universidade Salvador'
+    left_click_commands:
+    - '[console] lp user %player_name% meta set faculdade UNIFACS'
+    - '[console] lp user %player_name% meta set faculdade_display &dUNIFACS'
+    - '[openguimenu] curso'
+  oth:
+    material: PAPER
+    slot: 17
+    display_name: '&fOTH'
+    lore:
+    - '&7Outro'
+    left_click_commands:
+    - '[console] lp user %player_name% meta set faculdade OTH'
+    - '[console] lp user %player_name% meta set faculdade_display &fOutro'
+    - '[openguimenu] curso'
   na:
     material: BARRIER
-    slot: 14
+    slot: 26
     display_name: '&7N/A'
+    lore:
+    - '&7Não estuda / Não se aplica'
     left_click_commands:
     - '[console] lp user %player_name% meta set faculdade NA'
     - '[console] lp user %player_name% meta set faculdade_display &7-'
