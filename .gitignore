@@ -1,0 +1,38 @@
+# ==========================================
+# 1. ARQUIVOS SENSÍVEIS (SENHAS E TOKENS)
+# ==========================================
+# Credenciais do Dropbox / FTP
+plugins/ServerBackup/cloudAccess.yml
+
+# Configurações de banco MySQL / SQLite (safe se sem banco)
+#plugins/BlueMap/storages/sql.conf
+#plugins/BlueMap/storages/sqlite.conf
+
+# Segredo de proxy/redes (safe se sem proxy)
+#config/paper-global.yml 
+
+# ==========================================
+# 2. DADOS PESSOAIS E HISTÓRICO DE JOGADORES
+# ==========================================
+usercache.json
+ops.json
+whitelist.json
+banned-ips.json
+banned-players.json
+usernamecache.json
+
+# ==========================================
+# 3. EXECUTÁVEIS, MAPAS E LOGS (Pesados)
+# ==========================================
+*.jar
+plugins/**/*.jar
+libraries/
+versions/
+world/
+world_nether/
+world_the_end/
+Backups/
+logs/
+cache/
+.paper/
+repomix-output.xml
