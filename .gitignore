@@ -53,3 +53,6 @@ bluemap/web/maps/
 bluemap/web/textures/
 plugins/BlueMap/web/maps/
 plugins/BlueMap/web/textures/
+
+# Traduções automáticas do LuckPerms
+plugins/LuckPerms/translations/

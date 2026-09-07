@@ -2,7 +2,7 @@
 header-footer:
   enabled: true
   designs:
-    world-test:
+    world-test: 
       display-condition: "%world%=test"
       header:
         - "Test header in world 'test'"
@@ -29,8 +29,6 @@ header-footer:
 tablist-name-formatting:
   enabled: true
   disable-condition: '%world%=disabledworld'
-  anchor: "%player%"
-  format: "%luckperms_meta_faculdade_display% %luckperms_meta_curso%'%luckperms_meta_ano% &f%player%"
 
 # https://github.com/NEZNAMY/TAB/wiki/Feature-guide:-Nametags
 scoreboard-teams:
