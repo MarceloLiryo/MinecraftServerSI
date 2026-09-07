@@ -15,3 +15,9 @@ gui_menus:
     file: advanced_menu.yml
   requirements_menu:
     file: requirements_menu.yml
+  faculdade:
+    file: faculdade.yml
+  curso:
+    file: curso.yml
+  ano:
+    file: ano.yml
