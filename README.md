@@ -6,12 +6,21 @@ Apenas arquivos de config (`.yml`, `.conf`, `.json`) são versionados aqui. Bin�
 
 ## 🔌 Plugins Utilizados
 
-* **PlaceholderAPI:** Base para placeholders de texto em plugins.
-* **BlueMap:** Mapa 3D em tempo real via navegador.
-* **SkinsRestorer:** Gerenciamento e restauração de skins.
-* **ServerBackup:** Rotina de backups automatizados.
-* **spark:** Profiler e análise de performance.
-
+* **BlueMap:** Mapa 3D interativo em tempo real via navegador.
+* **DeluxeMenus:** Criação de menus interativos em GUI para os jogadores.
+* **EssentialsX:** Conjunto de comandos essenciais (teleporte, utilitários e gerenciamento).
+* **EssentialsXChat:** Integração de formatação de chat para o EssentialsX.
+* **EssentialsXDiscord:** Sincronização e integração de chat/comandos com o Discord. Ainda não implementado.
+* **JoinCommands:** Execução automática de comandos/menus no primeiro ou em cada acesso do jogador.
+* **LuckPerms:** Sistema avançado de gerenciamento de permissões e grupos.
+* **ModernChatInjector:** Suporte e injeção de formatação para chat moderno nas versões recentes.
+* **PlaceholderAPI:** Base para placeholders de texto dinâmicos em plugins.
+* **ServerBackup:** Rotina de backups automatizados do servidor.
+* **SkinsRestorer:** Gerenciamento e restauração de skins para contas piratas e originais.
+* **spark:** Profiler e análise de performance do servidor.
+* **StopTimer:** Controle e agendamento de desligamento automático do servidor.
+* **TAB:** Customização do menu TAB e exibição de informações/tags acima do jogador.
+* **UltimateAutoRestart:** Agendamento e automação de reinicializações periódicas do servidor.
 ---
 
 ## 🛠️ Rodando o Servidor
