@@ -11,7 +11,7 @@ items:
     - '&7Sistemas de Informação'
     left_click_commands:
     - '[console] lp user %player_name% meta set curso SI'
-    - '[console] lp user %player_name% meta set curso_display &bSI'
+    - '[console] lp user %player_name% meta set curso_display §bSI'
     - '[openguimenu] ano'
   cc:
     material: REPEATER
@@ -21,7 +21,7 @@ items:
     - '&7Ciência da Computação'
     left_click_commands:
     - '[console] lp user %player_name% meta set curso CC'
-    - '[console] lp user %player_name% meta set curso_display &aCC'
+    - '[console] lp user %player_name% meta set curso_display §aCC'
     - '[openguimenu] ano'
   eng:
     material: IRON_PICKAXE
@@ -31,7 +31,7 @@ items:
     - '&7Engenharia'
     left_click_commands:
     - '[console] lp user %player_name% meta set curso ENG'
-    - '[console] lp user %player_name% meta set curso_display &6ENG'
+    - '[console] lp user %player_name% meta set curso_display §6ENG'
     - '[openguimenu] ano'
   qui:
     material: BREWING_STAND
@@ -41,7 +41,7 @@ items:
     - '&7Química'
     left_click_commands:
     - '[console] lp user %player_name% meta set curso QUI'
-    - '[console] lp user %player_name% meta set curso_display &eQUI'
+    - '[console] lp user %player_name% meta set curso_display §eQUI'
     - '[openguimenu] ano'
   fis:
     material: BLAZE_ROD
@@ -51,7 +51,7 @@ items:
     - '&7Física'
     left_click_commands:
     - '[console] lp user %player_name% meta set curso FIS'
-    - '[console] lp user %player_name% meta set curso_display &6FIS'
+    - '[console] lp user %player_name% meta set curso_display §6FIS'
     - '[openguimenu] ano'
   dsg:
     material: PAINTING
@@ -61,7 +61,7 @@ items:
     - '&7Design'
     left_click_commands:
     - '[console] lp user %player_name% meta set curso DSG'
-    - '[console] lp user %player_name% meta set curso_display &dDSG'
+    - '[console] lp user %player_name% meta set curso_display §dDSG'
     - '[openguimenu] ano'
   urb:
     material: BRICKS
@@ -71,7 +71,7 @@ items:
     - '&7Arquitetura e Urbanismo'
     left_click_commands:
     - '[console] lp user %player_name% meta set curso URB'
-    - '[console] lp user %player_name% meta set curso_display &7URB'
+    - '[console] lp user %player_name% meta set curso_display §7URB'
     - '[openguimenu] ano'
   med:
     material: GOLDEN_APPLE
@@ -81,7 +81,7 @@ items:
     - '&7Medicina'
     left_click_commands:
     - '[console] lp user %player_name% meta set curso MED'
-    - '[console] lp user %player_name% meta set curso_display &cMED'
+    - '[console] lp user %player_name% meta set curso_display §cMED'
     - '[openguimenu] ano'
   enf:
     material: POTION
@@ -91,7 +91,7 @@ items:
     - '&7Enfermagem'
     left_click_commands:
     - '[console] lp user %player_name% meta set curso ENF'
-    - '[console] lp user %player_name% meta set curso_display &2ENF'
+    - '[console] lp user %player_name% meta set curso_display §2ENF'
     - '[openguimenu] ano'
   far:
     material: GLASS_BOTTLE
@@ -101,7 +101,7 @@ items:
     - '&7Farmácia'
     left_click_commands:
     - '[console] lp user %player_name% meta set curso FAR'
-    - '[console] lp user %player_name% meta set curso_display &2FAR'
+    - '[console] lp user %player_name% meta set curso_display §2FAR'
     - '[openguimenu] ano'
   bio:
     material: SPIDER_EYE
@@ -111,7 +111,7 @@ items:
     - '&7Biomedicina'
     left_click_commands:
     - '[console] lp user %player_name% meta set curso BIO'
-    - '[console] lp user %player_name% meta set curso_display &dBIO'
+    - '[console] lp user %player_name% meta set curso_display §dBIO'
     - '[openguimenu] ano'
   psico:
     material: FEATHER
@@ -121,7 +121,7 @@ items:
     - '&7Psicologia'
     left_click_commands:
     - '[console] lp user %player_name% meta set curso PSI'
-    - '[console] lp user %player_name% meta set curso_display &dPSI'
+    - '[console] lp user %player_name% meta set curso_display §dPSI'
     - '[openguimenu] ano'
   dir:
     material: ANVIL
@@ -131,7 +131,7 @@ items:
     - '&7Direito'
     left_click_commands:
     - '[console] lp user %player_name% meta set curso DIR'
-    - '[console] lp user %player_name% meta set curso_display &eDIR'
+    - '[console] lp user %player_name% meta set curso_display §eDIR'
     - '[openguimenu] ano'
   adm:
     material: PAPER
@@ -141,7 +141,7 @@ items:
     - '&7Administração'
     left_click_commands:
     - '[console] lp user %player_name% meta set curso ADM'
-    - '[console] lp user %player_name% meta set curso_display &bADM'
+    - '[console] lp user %player_name% meta set curso_display §bADM'
     - '[openguimenu] ano'
   jgd:
     material: DIAMOND_SWORD
@@ -151,7 +151,7 @@ items:
     - '&7Jogos Digitais'
     left_click_commands:
     - '[console] lp user %player_name% meta set curso JGD'
-    - '[console] lp user %player_name% meta set curso_display &dJGD'
+    - '[console] lp user %player_name% meta set curso_display §dJGD'
     - '[openguimenu] ano'
   oth:
     material: STICK
@@ -161,7 +161,7 @@ items:
     - '&7Outro'
     left_click_commands:
     - '[console] lp user %player_name% meta set curso OTH'
-    - '[console] lp user %player_name% meta set curso_display &7Outro'
+    - '[console] lp user %player_name% meta set curso_display §7Outro'
     - '[openguimenu] ano'
   na:
     material: BARRIER
@@ -171,5 +171,5 @@ items:
     - '&7Não se aplica'
     left_click_commands:
     - '[console] lp user %player_name% meta set curso NA'
-    - '[console] lp user %player_name% meta set curso_display &7-'
+    - '[console] lp user %player_name% meta set curso_display §7-'
     - '[openguimenu] ano'

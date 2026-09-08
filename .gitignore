@@ -63,3 +63,23 @@ usermap.bin
 plugins/EssentialsDiscord
 
 plugins/SkinsRestorer/skins/
+
+# Ignorar renders e caches do BlueMap
+bluemap/web/
+bluemap/pluginState.json
+
+# BlueMap
+bluemap/
+
+# Ignorar dados de jogadores (Playerdata)
+plugins/*/playerdata/
+plugins/JoinCommands/playerdata/
+
+# Ignorar caches de Skins
+plugins/SkinsRestorer/players/
+plugins/SkinsRestorer/skins/
+plugins/SkinsRestorer/recommendations.json
+
+# Ignorar logs gerais
+*.log
+logs/

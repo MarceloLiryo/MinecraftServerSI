@@ -1,0 +1,57 @@
+# StopTimer configuration
+
+# Language to use for all messages.
+# Built-in options: en (English), zh_tw (Traditional Chinese)
+# To add a custom language, create plugins/StopTimer/lang/<language>.yml
+language: pt_br
+
+# Default shutdown countdown time used when /stopserver is run with no time argument.
+# Supports the same format as the command: s (seconds), m (minutes), h (hours).
+# Example: 5m, 30s, 1h
+DefaultTime: 5m
+
+# Enable the BossBar countdown display
+BossBar: true
+
+NotifyTime:
+  Title:
+    Enable: true
+    # Send Title notification immediately when countdown starts
+    FirstRun: false
+    # Seconds remaining at which to send Title notifications
+    Seconds:
+      - 300
+      - 60
+      - 10
+      - 5
+      - 4
+      - 3
+      - 2
+      - 1
+  Message:
+    Enable: true
+    # Send chat message notification immediately when countdown starts
+    FirstRun: true
+    # Seconds remaining at which to send chat message notifications
+    Seconds:
+      - 1800
+      - 600
+      - 300
+      - 60
+      - 10
+      - 5
+      - 4
+      - 3
+      - 2
+      - 1
+  Discord:
+    Enable: true
+    # Send Discord notification immediately when countdown starts
+    FirstRun: true
+    # Seconds remaining at which to send Discord notifications
+    Seconds:
+      - 1800
+      - 600
+      - 300
+      - 60
+      - 10

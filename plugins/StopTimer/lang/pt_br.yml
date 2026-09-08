@@ -1,0 +1,53 @@
+# StopTimer - Arquivo de idioma em Português (PT-BR)
+
+# Unidades de tempo usadas ao formatar a duração da contagem
+time:
+  hour: "hora"
+  hours: "horas"
+  minute: "minuto"
+  minutes: "minutos"
+  second: "segundo"
+  seconds: "segundos"
+
+messages:
+  command:
+    # Dica de uso exibida quando o comando é usado incorretamente
+    usage: "&cUso correto: /stopserver [tempo] ou /stopserver cancel"
+    # Exibido quando o jogador não tem permissão
+    nopermission: "&cVocê não tem permissão para usar este comando."
+    # Exibido quando o formato de tempo fornecido é inválido
+    errorformat: "&cFormato de tempo desconhecido! Use: s (segundos), m (minutos), h (horas)."
+    # Exibido quando a contagem regressiva é cancelada com sucesso
+    canceled: "&aA contagem regressiva foi cancelada."
+    # Exibido quando o cancelamento é usado, mas nenhuma contagem está rodando
+    cancelfail: "&cNenhuma contagem regressiva está em andamento."
+    # Exibido após recarregar a configuração com sucesso
+    reload: "&aConfiguração do StopTimer recarregada!"
+    # Mensagem enviada quando a contagem já está rodando
+    alreadyrunning: "&cJá existe uma contagem em andamento! Use /stopserver cancel primeiro."
+  notify:
+    # Título exibido na tela dos jogadores durante as notificações
+    title: "&c&lAviso de Desligamento"
+    # Subtítulo exibido na tela dos jogadores; %time% é substituído pelo tempo restante
+    subtitle: "&4O servidor será desligado em &c%time%"
+    # Mensagens de chat enviadas a todos os jogadores; %time% é substituído pelo tempo restante
+    message:
+      - "&c&lAviso de Desligamento"
+      - "&4O servidor será desligado em &c%time%"
+    # Mensagem de kick/expulsão exibida quando o servidor desliga
+    kick: "&cO servidor foi desligado. Por favor, tente novamente mais tarde."
+    # Mensagens de chat enviadas quando a contagem é cancelada
+    cancel:
+      - "&c&lAviso do Servidor"
+      - "&4O desligamento do servidor foi cancelado."
+  bossbar:
+    # Título da BossBar; %time% é substituído pelo tempo restante
+    message: "&4&lServidor desligando em &c&l%time%"
+  placeholder:
+    # Valor da PlaceholderAPI %stoptimer_message%; %time% é substituído pelo tempo restante
+    message: "&4&lServidor desligando em &c&l%time%"
+  discord:
+    # Mensagem de notificação do Discord; %time% é substituído pelo tempo restante.
+    message: "## :warning: O servidor será desligado em %time%"
+    # Mensagem do Discord enviada quando a contagem é cancelada.
+    cancel: "## :warning: O desligamento do servidor foi cancelado."

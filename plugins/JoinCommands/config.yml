@@ -1,0 +1,17 @@
+# Default Configuration for Join Commands (Spigot Version)
+
+debug-mode: false
+disable-player-data: false
+bungeecord-hook: false
+placeholderapi-hook: true
+
+server-join-commands:
+  primeiroAcessoFaculdade:
+    command-list:
+      - "msg {player} Por favor, escolha sua identidade no servidor!"
+      - "[PLAYER]dm open faculdade"
+    permission: ""
+    first-join-only: true
+    delay: 40
+
+world-join-commands: {}
