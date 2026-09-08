@@ -56,3 +56,10 @@ plugins/BlueMap/web/textures/
 
 # Traduções automáticas do LuckPerms
 plugins/LuckPerms/translations/
+
+userdata/
+uuids.bin
+usermap.bin
+plugins/EssentialsDiscord
+
+plugins/SkinsRestorer/skins/
