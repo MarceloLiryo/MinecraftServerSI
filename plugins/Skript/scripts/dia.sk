@@ -1,0 +1,16 @@
+variables:
+    {server_day} = 53
+    {last_time::"world"} = 0
+
+every 10 seconds:
+    set {_atual} to time of world "world"
+    if {_atual} < {last_time::"world"}:
+        add 1 to {server_day}
+        broadcast "&6&l☀ Um novo dia amanheceu! &e(Dia %{server_day}%)"
+    set {last_time::"world"} to {_atual}
+
+command /setday <number>: 
+    permission: skript.admin
+    trigger:
+        set {server_day} to arg-1
+        send "&aDia do servidor ajustado para %arg-1%." to console

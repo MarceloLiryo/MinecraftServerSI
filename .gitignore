@@ -83,3 +83,11 @@ plugins/SkinsRestorer/recommendations.json
 # Ignorar logs gerais
 *.log
 logs/
+
+# Dados sensíveis
+plugins/AuthMe/authme.db
+plugins/AuthMe/config.yml
+
+# Arquivos padrão dos plugins (não são seus)
+plugins/Skript/lang/
+plugins/Skript/scripts/-examples/

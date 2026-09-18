@@ -86,12 +86,12 @@ items:
   uninassau:
     material: BOOK
     slot: 22
-    display_name: '&9UNINASSAU'
+    display_name: '&eUNINASSAU'
     lore:
     - '&7Centro Universitário Maurício de Nassau'
     left_click_commands:
     - '[console] lp user %player_name% meta set faculdade UNINASSAU'
-    - '[console] lp user %player_name% meta set faculdade_display §9UNINASSAU'
+    - '[console] lp user %player_name% meta set faculdade_display §eUNINASSAU'
     - '[openguimenu] curso'
   uniruy:
     material: BOOK
@@ -102,6 +102,16 @@ items:
     left_click_commands:
     - '[console] lp user %player_name% meta set faculdade UNIRUY'
     - '[console] lp user %player_name% meta set faculdade_display §3UNIRUY'
+    - '[openguimenu] curso'
+  estacio:
+    material: BOOK
+    slot: 24
+    display_name: '&cESTÁCIO'
+    lore:
+    - '&7Centro Universitário Estácio'
+    left_click_commands:
+    - '[console] lp user %player_name% meta set faculdade ESTACIO'
+    - '[console] lp user %player_name% meta set faculdade_display §cESTÁCIO'
     - '[openguimenu] curso'
   oth:
     material: PAPER

@@ -40,7 +40,7 @@ settings:
    #- '[FRIDAY] command to execute on restart and only on fridays'
    #- '[proxy] test'
    - 'save-all'
-   - 'restart' #restart para restartar
+   - 'stop'
    
    # Note: Visit the wiki for more information regarding all command types.
    # Note: Available command types for restartCommands -> time, proxy

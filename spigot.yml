@@ -67,17 +67,17 @@ world-settings:
     arrow-despawn-rate: 1200
     trident-despawn-rate: 1200
     nerf-spawner-mobs: false
-    item-despawn-rate: 6000
+    item-despawn-rate: 14400
     mob-spawn-range: 8
     wither-spawn-sound-radius: 0
     end-portal-sound-radius: 0
     entity-tracking-range:
-      players: 128
-      animals: 96
-      monsters: 96
-      misc: 96
+      players: 192
+      animals: 128
+      monsters: 128
+      misc: 128
       display: 128
-      other: 64
+      other: 96
     max-tick-time:
       tile: 50
       entity: 50

@@ -61,7 +61,7 @@ BackupWorlds:
 Blacklist:
 - libraries
 - plugins/ServerBackup/config.yml
-DeleteOldBackups: 14
+DeleteOldBackups: 18
 BackupLimiter: 0
 KeepUniqueBackups: false
 UpdateAvailableMessage: true

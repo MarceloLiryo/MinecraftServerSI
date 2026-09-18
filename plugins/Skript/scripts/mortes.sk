@@ -1,0 +1,23 @@
+variables:
+    {max_deaths} = 0
+    {max_deaths_holder} = "ninguém"
+
+on death of a player:
+    add 1 to {deaths::%uuid of victim%}
+    if {deaths::%uuid of victim%} > {max_deaths}:
+        if "%{max_deaths_holder}%" is "%victim%":
+            set {max_deaths} to {deaths::%uuid of victim%}
+            broadcast "&7💀 O recorde vivo de mortes, %victim%&7, morreu de novo... &8(%{max_deaths}% mortes)"
+        else:
+            set {max_deaths} to {deaths::%uuid of victim%}
+            set {max_deaths_holder} to "%victim%"
+            broadcast "&c&l💀 %victim% &cacaba de se tornar o jogador com MAIS MORTES do servidor! Parabéns. &7(%{max_deaths}% mortes)"
+
+command /setdeaths <player> <number>:
+    permission: skript.admin
+    trigger:
+        set {deaths::%uuid of arg-1%} to arg-2
+        if {deaths::%uuid of arg-1%} > {max_deaths}:
+            set {max_deaths} to {deaths::%uuid of arg-1%}
+            set {max_deaths_holder} to "%arg-1%"
+        send "&aMortes de %arg-1% definidas como %arg-2%." to console
